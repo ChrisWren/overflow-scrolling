@@ -1,0 +1,12 @@
+.container {
+  overflow: scroll;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*Reduce font-size to show example on iPhone 4s and below*/
+@media (max-device-height: 480px) {
+  body {
+    font-size: 10px;
+  }
+}
